@@ -1,0 +1,63 @@
+@font-face {
+  font-family: RubikMonoOne;
+  font-weight: 400;
+  font-style: normal;
+  src:
+       local("RubilMonoOne"),
+       url("../fonts/RubikMonoOne-Regular.woff2") format('woff2'),
+       url("../fonts/RubikMonoOne-Regular.woff") format('woff'),
+       url("../fonts/RubikMonoOne-Regular.eot") format('eot');
+  font-display: swap;
+}
+@font-face {
+  font-family: RubikVinyl;
+  font-weight: 400;
+  font-style: normal;
+  src: local("RubikVinyl"),
+       url("../fonts/RubikVinyl-Regular.woff2") format('woff2'),
+       url("../fonts/RubikVinyl-Regular.woff") format('woff'),
+       url("../fonts/RubikVinyl-Regular.eot") format('eot');
+  font-display: swap;
+}
+
+
+
+@font-face {
+  font-family: Sitara;
+  font-weight: 900;
+  font-style: normal;
+  src: local("Sitara"),
+       url("../fonts/Sitara-Bold.woff2") format('woff2'),
+       url("../fonts/Sitara-Bold.woff") format('woff'),
+       url("../fonts/Sitara-Bold.eot") format('eot');
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: Sitara;
+  font-weight: 400;
+  font-style: normal;
+  src: local("Sitara"),
+       url("../fonts/Sitara-Regular.woff2") format('woff2'),
+       url("../fonts/Sitara-Regular.woff") format('woff'),
+       url("../fonts/Sitara-Regular.eot") format('eot');
+  font-display: swap;
+}
+
+
+
+@font-face {
+  font-family: Raydis;
+  font-weight: 900;
+  font-style: normal;
+  src: local("Raydis"),
+       url("../fonts/RAYDIS.woff2") format('woff2'),
+       url("../fonts/RAYDIS.woff") format('woff'),
+       url("../fonts/RAYDIS.eot") format('eot');
+  font-display: swap;
+}
+
+
+
+
