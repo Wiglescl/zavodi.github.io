@@ -660,6 +660,7 @@ body {
     font-weight: 400;
     padding: 40px;
     font-family: Sitara, sans-serif;
+    font-size: 34px;
 }
 
 .faq__panel {}
@@ -1019,3 +1020,37 @@ body {
 .popup-content .submit-btn:hover {
     background-color: #8c000f;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+@media (max-width: 1727px) {
+    
+    .header__logo-link {
+    display: inline;
+    position: absolute;
+    margin-left: 49px;
+    margin-top: 76px;
+    width: 725px;
+    height: 245px;
+}
+
+    .header__logo-background {
+    width: 844px;
+    margin-left: 12px;
+    margin-top: 162px;
+    }
+} */
