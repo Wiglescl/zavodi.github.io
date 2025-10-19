@@ -861,6 +861,10 @@ body {
     .header__logo-background {
         margin-left: 15px;
     }
+
+    .features__title {
+        padding-right: 8%;
+    }
 }
 
 
@@ -883,7 +887,25 @@ body {
     .header__bottom-nav__list {
         gap: 6px;
     }
+
+    .features__title {
+        padding-right: 5%;
+    }
+
+
 }
+
+@media (max-width: 1286px) {
+    .about__content {
+        margin-top: 55px;
+    }
+
+    .about__paragraph {
+        font-size: 27px;
+    }
+}
+
+
 
 @media (max-width: 1160px) {
     .bottom__nav-link {
@@ -892,7 +914,13 @@ body {
         justify-content: center;
         padding: 20px 8px 20px 8px;
     }
+
+    .about__paragraph {
+        font-size: 23px;
+    }
 }
+
+
 
 @media (max-width: 950px) {
     .header__bottom {
@@ -915,6 +943,13 @@ body {
 
     .header__logo-background {
         width: 678px;
+    }
+}
+
+
+@media (max-width: 840px) {
+    .about__paragraph {
+        font-size: 19px;
     }
 }
 
@@ -949,10 +984,7 @@ body {
     .half__circle-Title {
         margin-top: 116px;
     }
-}
 
-
-@media (max-width: 730px) {
     .header__bottom {
         height: 100%;
         clip-path: none;
@@ -970,6 +1002,10 @@ body {
         align-items: center;
     }
 
+    .service-promo__image {
+        display: none;
+    }
+
     .service-promo__button {
         left: 0px;
     }
@@ -977,10 +1013,7 @@ body {
     .promo__inner {
         display: block;
     }
-}
 
-
-@media (max-width: 730px) {
     .service-promo__content {
         width: 100%;
         height: 100%;
@@ -992,4 +1025,60 @@ body {
         margin-top: 40px;
         margin-bottom: 40px;
     }
+}
+
+
+@media (max-width: 560px) {
+    .about__paragraph {
+        font-size: 16px;
+    }
+}
+
+
+
+@media (max-width: 455px) {
+    .service-promo__title {
+        font-size: 25px;
+    }
+
+
+    .service-promo__button {
+        width: 100%;
+    }
+
+    .service-promo__description {
+        line-height: 27px;
+        font-size: 17px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .about__paragraph {
+        font-size: 13px;
+        line-height: 180%;
+    }
+
+    .about__title {
+        margin-left: 0px;
+        margin: auto;
+    }
+
+    .promo__section {
+        height: 807px;
+    }
+
+    .half__circle-Title {
+        font-size: 43px;
+    }
+
+    .half-circle-up {
+        height: 261px;
+    }
+}
+
+
+
+html, body {
+    overflow-x: hidden !important;
+    position: relative;
 }
