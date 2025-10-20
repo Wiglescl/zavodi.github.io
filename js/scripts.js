@@ -135,3 +135,28 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
 });
+
+
+ // JS для мобильного аккордеона
+    const accordionHeaders = document.querySelectorAll('.accordion-header');
+
+    accordionHeaders.forEach(header => {
+        header.addEventListener('click', () => {
+            const content = header.nextElementSibling; 
+
+            accordionHeaders.forEach(otherHeader => {
+                if (otherHeader !== header && otherHeader.classList.contains('active')) {
+                    otherHeader.classList.remove('active');
+                    otherHeader.nextElementSibling.style.maxHeight = null;
+                }
+            });
+
+            header.classList.toggle('active');
+
+            if (content.style.maxHeight) {
+                content.style.maxHeight = null;
+            } else {
+                content.style.maxHeight = content.scrollHeight + "px";
+            }
+        });
+    });

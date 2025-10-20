@@ -169,57 +169,99 @@
                 <div class="faq__container">
                     <div class="container">
                         <h2 class="faq__title">Часто задаваемые вопросы</h2>
-                        <div class="faq__tabs">
-                            <ul class="faq__nav" role="tablist" aria-label="Список вопросов">
-                                <li class="faq__nav-item">
-                                    <button class="faq__button faq__button--active" role="tab" aria-selected="true"
-                                        aria-controls="faq-panel-1" id="faq-tab-1">
-                                        Вы ремонтируете любые авто?
-                                    </button>
-                                </li>
-                                <li class="faq__nav-item">
-                                    <button class="faq__button" role="tab" aria-selected="false"
-                                        aria-controls="faq-panel-2" id="faq-tab-2" tabindex="-1">
-                                        Как часто нужно менять масло?
-                                    </button>
-                                </li>
-                                <li class="faq__nav-item">
-                                    <button class="faq__button" role="tab" aria-selected="false"
-                                        aria-controls="faq-panel-3" id="faq-tab-3" tabindex="-1">
-                                        Работаете ли вы в выходные?
-                                    </button>
-                                </li>
-                                <li class="faq__nav-item">
-                                    <button class="faq__button" role="tab" aria-selected="false"
-                                        aria-controls="faq-panel-4" id="faq-tab-4" tabindex="-1">
-                                        Занимаетесь ли вы запчастями?
-                                    </button>
-                                </li>
-                            </ul>
-                            <div class="faq__content">
-                                <div class="faq__panel faq__panel--active" role="tabpanel" aria-labelledby="faq-tab-1"
-                                    id="faq-panel-1">
-                                    <p>Мы специализируемся на ремонте автомобилей иностранного производства, но также
-                                        можем оказать помощь и владельцам отечественных машин, в зависимости от
-                                        характера поломки и особенностей автомобиля.
-                                        Для получения дополнительной информации или уточнения деталей, пожалуйста,
-                                        свяжитесь с нами по телефону: +7 800 555 35 35.</p>
+
+                        <!-- Десктопная версия FAQ (ваша существующая) -->
+                        <div class="faq__desktop-view">
+                            <div class="faq__tabs">
+                                <ul class="faq__nav" role="tablist" aria-label="Список вопросов">
+                                    <li class="faq__nav-item">
+                                        <button class="faq__button faq__button--active" role="tab" aria-selected="true"
+                                            aria-controls="faq-panel-1" id="faq-tab-1">
+                                            Вы ремонтируете любые авто?
+                                        </button>
+                                    </li>
+                                    <li class="faq__nav-item">
+                                        <button class="faq__button" role="tab" aria-selected="false"
+                                            aria-controls="faq-panel-2" id="faq-tab-2" tabindex="-1">
+                                            Как часто нужно менять масло?
+                                        </button>
+                                    </li>
+                                    <li class="faq__nav-item">
+                                        <button class="faq__button" role="tab" aria-selected="false"
+                                            aria-controls="faq-panel-3" id="faq-tab-3" tabindex="-1">
+                                            Работаете ли вы в выходные?
+                                        </button>
+                                    </li>
+                                    <li class="faq__nav-item">
+                                        <button class="faq__button" role="tab" aria-selected="false"
+                                            aria-controls="faq-panel-4" id="faq-tab-4" tabindex="-1">
+                                            Занимаетесь ли вы запчастями?
+                                        </button>
+                                    </li>
+                                </ul>
+                                <div class="faq__content">
+                                    <div class="faq__panel faq__panel--active" role="tabpanel" aria-labelledby="faq-tab-1"
+                                        id="faq-panel-1">
+                                        <p>Мы специализируемся на ремонте автомобилей иностранного производства, но также
+                                            можем оказать помощь и владельцам отечественных машин, в зависимости от
+                                            характера поломки и особенностей автомобиля.
+                                            Для получения дополнительной информации или уточнения деталей, пожалуйста,
+                                            свяжитесь с нами по телефону: +7 800 555 35 35.</p>
+                                    </div>
+                                    <div class="faq__panel" role="tabpanel" aria-labelledby="faq-tab-2" id="faq-panel-2"
+                                        hidden>
+                                        <p>Точные сроки зависят от модели и марки вашего автомобиля. Для получения более
+                                            подробной информации вы можете обратиться к руководству по эксплуатации или
+                                            задать вопрос нашим специалистам по телефону +78005553535.</p>
+                                    </div>
+                                    <div class="faq__panel" role="tabpanel" aria-labelledby="faq-tab-3" id="faq-panel-3"
+                                        hidden>
+                                        <p>На данный момент работаем только в будни. Есть возможность индивидуального
+                                            графика работ, который вы можете согласовать по номеру +78005553535</p>
+                                    </div>
+                                    <div class="faq__panel" role="tabpanel" aria-labelledby="faq-tab-4" id="faq-panel-4"
+                                        hidden>
+                                        <p>Да, у нас есть склад с запасными частями. Если нужной детали нет в наличии, мы заказываем её по самым выгодным ценам и обеспечиваем быструю доставку в течение 24 часов. </p>
+                                    </div>
                                 </div>
-                                <div class="faq__panel" role="tabpanel" aria-labelledby="faq-tab-2" id="faq-panel-2"
-                                    hidden>
-                                    <p>Точные сроки зависят от модели и марки вашего автомобиля. Для получения более
-                                        подробной информации вы можете обратиться к руководству по эксплуатации или
-                                        задать вопрос нашим специалистам по телефону +78005553535.</p>
+                            </div>
+                        </div>
+
+                        <!-- Мобильная версия FAQ (аккордеон) -->
+                        <div class="faq__mobile-view">
+                            <div class="accordion">
+                                <div class="accordion-item">
+                                    <button class="accordion-header">Вы ремонтируете любые авто?</button>
+                                    <div class="accordion-content">
+                                        <p>Мы специализируемся на ремонте автомобилей иностранного производства, но также
+                                            можем оказать помощь и владельцам отечественных машин, в зависимости от
+                                            характера поломки и особенностей автомобиля.</p>
+                                    </div>
                                 </div>
-                                <div class="faq__panel" role="tabpanel" aria-labelledby="faq-tab-3" id="faq-panel-3"
-                                    hidden>
-                                    <p>На данный момент работаем только в будни. Есть возможность индивидуального
-                                        графика работ, который вы можете согласовать по номеру +78005553535</p>
+                                <div class="accordion-item">
+                                    <button class="accordion-header">Как часто нужно менять масло?</button>
+                                    <div class="accordion-content">
+                                        <p>Точные сроки зависят от модели и марки вашего автомобиля. Для получения более
+                                            подробной информации вы можете обратиться к руководству по эксплуатации или
+                                            задать вопрос нашим специалистам.</p>
+                                    </div>
                                 </div>
-                                <div class="faq__panel" role="tabpanel" aria-labelledby="faq-tab-4" id="faq-panel-4"
-                                    hidden>
-                                    <p>Да, у нас есть склад с запасными частями. Если нужной детали нет в наличии, мы заказываем её по самым выгодным ценам и обеспечиваем быструю доставку в течение 24 часов. </p>
+                                <div class="accordion-item">
+                                    <button class="accordion-header">Работаете ли вы в выходные?</button>
+                                    <div class="accordion-content">
+                                        <p>На данный момент работаем только в будни. Есть возможность индивидуального
+                                            графика работ, который вы можете согласовать.</p>
+                                    </div>
                                 </div>
+                                <div class="accordion-item">
+                                    <button class="accordion-header">Занимаетесь ли вы запчастями?</button>
+                                    <div class="accordion-content">
+                                        <p>Да, у нас есть склад с запасными частями. Если нужной детали нет в наличии, мы заказываем её по самым выгодным ценам и обеспечиваем быструю доставку в течение 24 часов.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq__mobile-contact">
+                                <p>Для получения дополнительной информации или уточнения деталей, пожалуйста, свяжитесь с нами по телефону: +7 800 555 35 35.</p>
                             </div>
                         </div>
                     </div>
